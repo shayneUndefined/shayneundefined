@@ -1,45 +1,28 @@
-<html>
-
-<head></head>
-
-<style>
-	.vh {
-		height: 60vh !important;
-	}
-	.header {
-		background-color: lightblue;
-		display: flex; height: 5em;
-	}
-	.main {
-		background-color: pink;
-	}
-	.footer {
-		background-color: darkcyan;
-	}
-	h1, h2, h3, h4, h5, div {
-		font-family: Helvetica, sans-serif;
-	}
-
-
-</style>
-
-<body>
-	<div class="header">
-	navigation
-
-	</div>
-	<div class="main vh">
-	
-t<br><h1>It works!</h1>
-<p><i>site.url</i> = {{ site.url }}</p>
-<p><i>site.baseurl</i> = {{ site.baseurl }}</p>
-
-	</div>
-	<div class="footer vh">
-	
-t
-
-	</div>
-</body>
-
-</html>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,300;0,500;0,900;1,700&display=swap');
+/* 
+font-family: 'Archivo', sans-serif;
+*/
+body {
+	width: 100%; padding: 0; margin: 0;
+	background-color: greenyellow;
+}
+nav {
+	background-color: #010101;
+	display: flex; height: 5em; color: white;
+}
+.hero {
+	background-color: lightgrey; height: 40%;
+}
+.main {
+	height: 20%;
+}
+section {
+	margin: 0; padding: 2em 5em;
+	background-color: #fff;
+}
+footer {
+	background-color: #010101;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Archivo', sans-serif;
+}

@@ -1,45 +1,48 @@
 <html>
 
-<head></head>
+<head>
+	<title> </title>
+	<link rel="stylesheet" type="text/css" href="/Users/shayne.valencia/Documents/GitHub/ShayneUndefined/css/main.css" />
 
-<style>
-	.vh {
-		height: 60vh !important;
-	}
-	.header {
-		background-color: lightblue;
-		display: flex; height: 5em;
-	}
-	.main {
-		background-color: pink;
-	}
-	.footer {
-		background-color: darkcyan;
-	}
-	h1, h2, h3, h4, h5, div {
-		font-family: Helvetica, sans-serif;
-	}
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script>
+		$(function() {
+			$("#includeHtml").load("header.html");
+		});
+   </script>
 
 
-</style>
+</head>
 
 <body>
-	<div class="header">
-	navigation
 
-	</div>
-	<div class="main vh">
+	<nav id="header">
+		<ul>
+			<li>
+				
+			</li>
+			<li>
+				
+			</li>
+			<li>
+				
+			</li>
+		</ul>
+	</nav>
 	
-t<br><h1>It works!</h1>
-<p><i>site.url</i> = {{ site.url }}</p>
-<p><i>site.baseurl</i> = {{ site.baseurl }}</p>
+	<section id="includeHtml" class="hero">
+			hero
+	</section>
 
-	</div>
-	<div class="footer vh">
+	<section class="main">
+		<h1>It works!</h1>
+		<p>this is main</p>
+	</section>
 	
-t
+	<footer>
+	t
+	</footer>
 
-	</div>
 </body>
 
 </html>
