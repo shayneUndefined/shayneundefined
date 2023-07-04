@@ -81,10 +81,15 @@ nav a:hover {
 }
 
 .steve {
-		height: 100%; width: auto; background-color: #030303; 
-		background-size: cover; background-repeat: no-repeat;
+	height: 100%; width: auto; background-color: #030303; 
+	background-size: cover; background-repeat: no-repeat;
 	}
-
+a.hidden-link {
+	filter: opacity(0%);
+	}
+a.hidden-link:hover {
+	filter: opacity(100%); color: fuchsia; !important;
+}
 .menu-gallery {
 	min-height: 40vh; display: flex; 
 }
