@@ -71,14 +71,26 @@ nav a:hover {
 	text-decoration: underline .1em;
 }
 .hero {
-	background-color: lightgrey; min-height: 60vh;
+	background-color: #030303; min-height: 60vh; 
+	width: 100%; background-size: cover; background-repeat: no-repeat;
+	display: flex; flex-flow: row wrap; align-content: center; justify-content: center;
 }
+.hero2 {
+	background-color: #030303; min-height: 600px; min-width:100px ; 
+	background-size: contain; background-repeat: no-repeat;
+}
+
+.steve {
+		height: 100%; width: auto; background-color: #030303; 
+		background-size: cover; background-repeat: no-repeat;
+	}
+
 .menu-gallery {
 	min-height: 40vh; display: flex;
 }
-.menu-gallery div:hover {
+.menu-gallery > div:hover {
 	transform: scale(1.2);
-	transition: 0.13s;
+	transition: 0.1s;
 }
 section.scroll-section {
   background-color: aquamarine;
@@ -95,7 +107,9 @@ div.main {
 	display: flex; flex-flow: row wrap;
 }
 
-
+section.hero {
+	margin: 0; padding: 0; width: 100%;
+}
 section {
 	margin: 0; padding: 2em 5em;
 	background-color: #fff;
