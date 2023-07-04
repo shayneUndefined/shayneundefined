@@ -2,7 +2,7 @@
 
 <head>
 	<title> </title>
-	<link rel="stylesheet" type="text/css" href="/Users/shayne.valencia/Documents/GitHub/ShayneUndefined/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/Users/shaynevalencia/Documents/GitHub/ShayneUndefined/css/main.css" />
 
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<!--script>
@@ -12,6 +12,22 @@
    </script-->
 
 
+
+   <script>
+   	
+
+
+//for every list item inside unnumbered list, add div with background image into section html
+
+var arrayVariable = Array.from(document.querySelectorAll(".dog"));
+    arrayLength = arrayVariable.length;
+
+for (i = 0; i < arrayLength; i++) {
+	
+  $('<div>' + arrayVariable[i] + '</div>').text(arrayVariable[i]).appendTo('section.hero');
+}
+
+   </script>
 </head>
 
 <body>
@@ -39,7 +55,18 @@
 	</nav>
 	
 	<section class="hero" style="background-image: url(./assets/asset01.png); background-size: cover; background-repeat: no-repeat;">
+<ul>
+	<li class="dog">
+		Bob
+	</li>
+	<li class="dog">
+		Steve
+	</li>
+	<li class="dog">
+		David
+	</li>
 
+</ul>
 	</section>
 
 
