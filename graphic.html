@@ -18,19 +18,27 @@
 
 
 //for every list item inside unnumbered list, add div with background image into section html
+let penis = "pink";
 
-var arrayVariable = Array.from(document.querySelectorAll(".dog"));
-    arrayLength = arrayVariable.length;
+function buildOutput() {
+	const output = document.querySelectorAll("li.dog");
+	const urls = Array.from(document.querySelectorAll("li.dog"));
+	const links = urls.map(x => x.innerText);
+	var arrayLength = links.length;
+	var i = 0;
 
-for (i = 0; i < arrayLength; i++) {
-	
-  $('<div>' + arrayVariable[i] + '</div>').text(arrayVariable[i]).appendTo('section.hero');
+	do {
+		output.forEach((li) => {
+			li.innerHTML = "<div style=\"height: 3em; width: 50em; background-color:" + penis + "\">" + links[i] + "</div>";})
+		i++;
+		}
+	while (i <= arrayLength);
 }
 
    </script>
 </head>
 
-<body>
+<body onload="buildOutput()">
 
 	<nav id="header">
 		<div>
