@@ -6,7 +6,7 @@ function buildOutput() {
 	let i = 0;
 
 	output.forEach((span) => {
-		span.outerHTML = "<img src=\"" + links[i] + "\" height=\"300\" width=\"auto\">";
+		span.outerHTML = "<img src=\"" + links[i] + "\" height=\"600\" width=\"auto\">";
 		i++;}
 		)
 	}

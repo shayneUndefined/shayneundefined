@@ -79,7 +79,9 @@ nav a:hover {
 	background-color: #030303; min-height: 600px; min-width:100px ; 
 	background-size: contain; background-repeat: no-repeat;
 }
-
+.hero > img:hover {
+	transform: scale(1.4); transition: 0.16s;
+}
 .steve {
 	height: 100%; width: auto; background-color: #030303; 
 	background-size: cover; background-repeat: no-repeat;
