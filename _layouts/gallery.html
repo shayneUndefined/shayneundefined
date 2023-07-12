@@ -9,15 +9,7 @@
 
 
 			<nav>
-				<div id="logo">
-					Shayne Valencia
-				</div>
-	    		<ul id="menu">
-	        		<li><a href="{{ "index.html" | absolute_url }}">Home</a></li>
-		        	<li><a href="{{ "/topics/page1.html" | absolute_url }}">Page 1</a></li>
-	        		<li><a href="{{ "/topics/page2.html" | absolute_url }}">Page 2</a></li>
-					<li><a href="{{ "/topics/page3.html" | absolute_url }}">Page 3</a></li>
-	    		</ul>
+				{% render header %}				
 			</nav>
 			<div class="container">
 			
@@ -25,10 +17,7 @@
 			
 			</div><!-- /.container -->
 			<footer>
-	    		<p>
-				{% assign url = "https://stevex420.github.io/test-site" %}
-				<a href="{{ site.baseurl | prepend: url }}">Get the code</a>
-				</p>
+	    		{% render footer %}
 			</footer>
 		</body>
 	</html>

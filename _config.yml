@@ -1,0 +1,8 @@
+name: Shayne Valencia
+markdown: kramdown
+baseurl: /shayneundefined
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
