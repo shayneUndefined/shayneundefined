@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<link rel="stylesheet" type="text/css" href=" {{ "/css/main.css" | absolute_url }} ">
-			<link rel="stylesheet" type="text/css" href= "/css/main.css">
-		</head>
-		<body>
+<html>
+<head>
+	<title>{{ page.title }}</title>
+	<link rel="stylesheet" type="text/css" href=" {{ './css/main.css' | absolute_url }} ">
+	<link rel="stylesheet" type="text/css" href= "./css/main.css">
+	{% feed_meta %}
+	{% seo %}
 
+	<style></style>
+</head>
 
-			<nav>
-				{% render header %}				
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		{% render footer %}
-			</footer>
-		</body>
-	</html>
+<body>
+	{% include header.html %}
+	{{ content }}
+	{% include footer.html %}
+</body>
+
+</html>

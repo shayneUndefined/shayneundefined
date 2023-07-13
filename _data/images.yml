@@ -1,0 +1,29 @@
+---
+home:
+  hero01:
+    - ./assets/roo.webp
+
+graphic:
+  hero01:
+    - ./assets/gvk01.webp
+
+motion:
+  hero01:
+    - ./assets/roo.webp
+
+web:
+  hero01:
+    - ./assets/gvk01.webp
+
+sculpts:
+  hero01:
+    - ./assets/gvk01.webp
+
+
+
+
+
+
+
+
+---

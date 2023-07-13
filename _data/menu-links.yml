@@ -1,0 +1,23 @@
+---
+
+graphic:
+  url:
+    - ./graphic.html
+
+motion:
+  url:
+    - ./motion.html
+
+web:
+  url:
+    - ./web.html
+
+sculpts:
+  url:
+    - ./sculpts.html
+
+waluigi:
+  url:
+    - ./waluigi.html
+
+---

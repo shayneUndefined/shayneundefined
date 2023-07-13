@@ -11,9 +11,7 @@ h1 {font-size: 110px; margin: 0; padding: 0;}
 h2 {font-size: 90px} h3 {font-size: 68px}
 h4 {font-size: 42px} h5 {font-size: 34px} h6 {font-size: 26px}
 
-p {font-size: ;}
-.col-2 {
-	width:50%; display: flex; align-items: center;
+p {font-size: ;
 }
 
 a {
@@ -49,8 +47,8 @@ nav li {
 nav a {
 	color: #fff;
 }
-nav a:hover {
-	text-decoration: underline .1em;
+nav a:hover, .nav-link {
+	text-decoration: underline .1em !important;
 }
 .hero {
 	background-color: #030303; min-height: 60vh; 
@@ -74,19 +72,28 @@ a.hidden-link {
 a.hidden-link:hover {
 	filter: opacity(100%); color: fuchsia; !important;
 }
+
+.menu-gallery > div {min-width:50% !important; display: flex; align-items: center;
+}
+
 .menu-gallery {
-	min-height: 40vh; display: flex; 
+	min-height: 40vh; display: flex; width: 100% !important; overflow: hidden !important;
+	flex-flow: row wrap;
+
 }
 .menu-gallery div:hover {
 	filter: saturate(00%);
 	transition: 0.13s;
 }
-.menu-gallery > div {
-	display: flex; flex-flow: row nowrap; justify-content: flex-start; 
+.menu-gallery > div > a { width: 100%; height: 100%;
+	display: flex; flex-flow: row wrap; justify-content: flex-start; 
 	align-content: flex-start; align-items: flex-start; color:white;
 	background-size: cover; background-position: center center;
 }
-.menu-gallery > div > h6 {
+.menu-gallery > div  { 
+	background-size: cover; background-position: center center; height: 40vh;
+}
+.menu-gallery > div > a > h6 {
 	background-color: black; padding: 1em 2em 1em 1em; margin: 0;
 }
 
@@ -107,6 +114,8 @@ section {
 section.menu-gallery {
 	padding: 0em;
 }
+.flex-end { align-self: flex-end;}
+
 
 footer {
 	background-color: #010101;

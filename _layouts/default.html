@@ -2,42 +2,14 @@
 <html>
 <head>
 	<title>{{ page.title }}</title>
-	<link rel="stylesheet" type="text/css" href=" {{ './css/main.css' | absolute_url }} ">
 	<link rel="stylesheet" type="text/css" href= "./css/main.css">
 	{% feed_meta %}
 	{% seo %}
 
 	<style></style>
 </head>
-
-
-{% assign hero01 = "./assets/roo.webp" %}
-
-<body>
 	{% include header.html %}
-	<section class="hero" style="background-image: url( {{ hero01 }} ); background-size: cover !important; background-position: 50% 50%;">
-			&nbsp;
-	</section>
-	<section class="menu-gallery">	
-		<div id="graphic" class="col-2" style="background-image: url(./assets/gvk02.webp)">
-			<h6>
-				01 graphic</h6>
-		</div>
-		<div id="motion" class="col-2" style="background-color: #555;">
-			<h6>
-				02 motion</h6>
-		</div>
-	</section>
-	<section class="menu-gallery">	
-		<div id="web" class="col-2" style="background-color: #555;">
-			<h6>
-				03 web</h6>
-		</div>
-		<div id="sculpts" class="col-2" style="background-color: #333;">	
-			<h6>
-				04 sculpts</h6>
-		</div>
-	</section>
+	{{ content }}
+	{% include footer.html %}
 
-</body>
 </html>

@@ -1,68 +1,62 @@
-<html>
+---
+layout: default
+title: Graphic
+page: graphic
+---
 
-<head>
-	<title> </title>
-	<link rel="stylesheet" type="text/css" href="/Users/shaynevalencia/Library/Mobile Documents/com~apple~CloudDocs/GitHub/shayneundefined/css/main.css" />
-	<!-- link rel="stylesheet" type="text/css" href="https://stevex420.github.io/shayneundefined/css/main.css" / -->
-
-
-	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<!--script>
-		$(function() {
-			$("#includeHeader").load("header.html");
-			$("#includeFooter").load("footer.html");
-		});
-   </script-->
-
-
-</head>
-
-<body onload="">
 
 	
-	
-	<section class="hero" style="background-image: url(./assets/gvk01.webp);">
+<body>
+	<section class="hero" style="background-image: 
+	url('{{ site.data.images.graphic.hero01 }}'); background-size: cover !important; background-position: 50% 50%;">
+			<span style="visibility: hidden;">
+			{% increment i %}</span>
 	</section>
 
-	<section class="menu-gallery">	
-		<div id="graphic" class="col-2" 
-		style="background-color: #333;">
-			&nbsp;
-		</div>
-		<div id="motion" class="col-2" 
-		style="background-color: #555;">	
-			&nbsp;
-		</div>
-	</section>
-	<section class="menu-gallery">	
-		<div id="web" class="col-2" 
-		style="background-color: #555;">
-			&nbsp;
-		</div>
-		<div id="sculpts" class="col-2"
-		style="background-color: #333;">	
-			&nbsp;
-		</div>
-	</section>
 
-	<br><br><br><br>
-	<footer id="includeFooter">
-	Shayne Valencia
-	<ul>
-		<li>
-			
-		</li>
-		<li>
-			
-		</li>
-		<li>
-			
-		</li>
-		<li>
-			
-		</li>
-	</ul>
-	</footer>
+	<section class="main" style="gap: 3em;">
+		<div class="flex-end">
+			<p>{{ site.data.strings.graphic.description }}</p>
+		</div>
+	</section>
+	<section class="menu-gallery">
+
+		<div id="graphic" class="col-2" style="background-image: 
+			url( '{{ site.data.images.graphic.hero01 }}');">
+			<a href="{{ site.data.menu-links.graphic.url }}">
+				<h6>
+					0{% increment i %} {{ site.data.menu.home[0] }}
+				</h6>
+			</a>
+		</div>
+		<div id="graphic" class="col-2" style="background-image: 
+			url( '{{ site.data.images.motion.hero01 }}');">
+			<a href="{{ site.data.menu-links.motion.url }}">
+				<h6>
+					0{% increment i %} {{ site.data.menu.home[1] }}
+				</h6>
+			</a>
+		</div>
+		<div id="graphic" class="col-2" style="background-image: 
+			url( '{{ site.data.images.web.hero01 }}');">
+			<a href="{{ site.data.menu-links.web.url }}">
+				<h6>
+					0{% increment i %} {{ site.data.menu.home[2] }}
+				</h6>
+			</a>
+		</div>
+		<div id="graphic" class="col-2" style="background-image: 
+			url( '{{ site.data.images.sculpts.hero01 }}');">
+			<a href="{{ site.data.menu-links.sculpts.url }}">
+				<h6>
+					0{% increment i %} {{ site.data.menu.home[3] }}
+				</h6>
+			</a>
+		</div>
+
+
+
+	</section>
 
 </body>
 

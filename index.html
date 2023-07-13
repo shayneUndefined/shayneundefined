@@ -1,80 +1,65 @@
 ---
 layout: default
 title: Home
+page: home
 ---
-<html>
-<head>
-	<title>{{ page.title }}</title>
-	<link rel="stylesheet" type="text/css" href="/Users/shaynevalencia/Library/Mobile Documents/com~apple~CloudDocs/GitHub/shayneundefined/css/main.css" />
-	<!-- link rel="stylesheet" type="text/css" href="https://stevex420.github.io/shayneundefined/css/main.css" / -->
 
 
-	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<!--script>
-		$(function() {
-			$("#includeHeader").load("header.html");
-			$("#includeFooter").load("footer.html");
-		});
-   </script-->
-
-
-</head>
-
+	
 <body>
-
-
-	<section class="hero" style="background-image: url(./assets/roo.webp); background-size: cover !important; background-position: 50% 50%;">
-			&nbsp;
+	<section class="hero" style="background-image: 
+	url('{{ site.data.images.home.hero01 }}'); background-size: cover !important; background-position: 50% 50%;">
+			<span style="visibility: hidden;">
+			{% increment i %}</span>
 	</section>
+
 
 	<section class="main" style="gap: 3em;">
 		<div class="col-2">
 			<h1>IT'S ALIVE</h1>
 		</div>
-		<div class="col-2">	
-			<p style="padding: 0 1em 0 2em;">Shayne Valencia is an artist and designer plotting away behind closed doors with the council of elder gods to bring back the old blood and laugh as the universe descends back into the primordial chaos from which it sprang. He likes dogs!</p>
+		<div class="flex-end col-2">
+			<p>{{ site.data.strings.home.description }}</p>
 		</div>
 	</section>
+	<section class="menu-gallery">
 
-	<section class="menu-gallery">	
-		<div id="graphic" class="col-2" style="background-image: url(./assets/gvk02.webp)">
-			<h6>
-				01 graphic</h6>
+		<div id="graphic" class="col-2" style="background-image: 
+			url( '{{ site.data.images.graphic.hero01 }}');">
+			<a href="{{ site.data.menu-links.graphic.url }}">
+				<h6>
+					0{% increment i %} {{ site.data.menu.home[0] }}
+				</h6>
+			</a>
 		</div>
-		<div id="motion" class="col-2" style="background-color: #555;">
-			<h6>
-				02 motion</h6>
+		<div id="graphic" class="col-2" style="background-image: 
+			url( '{{ site.data.images.motion.hero01 }}');">
+			<a href="{{ site.data.menu-links.motion.url }}">
+				<h6>
+					0{% increment i %} {{ site.data.menu.home[1] }}
+				</h6>
+			</a>
 		</div>
-	</section>
-	<section class="menu-gallery">	
-		<div id="web" class="col-2" style="background-color: #555;">
-			<h6>
-				03 web</h6>
+		<div id="graphic" class="col-2" style="background-image: 
+			url( '{{ site.data.images.web.hero01 }}');">
+			<a href="{{ site.data.menu-links.web.url }}">
+				<h6>
+					0{% increment i %} {{ site.data.menu.home[2] }}
+				</h6>
+			</a>
 		</div>
-		<div id="sculpts" class="col-2" style="background-color: #333;">	
-			<h6>
-				04 sculpts</h6>
+		<div id="graphic" class="col-2" style="background-image: 
+			url( '{{ site.data.images.sculpts.hero01 }}');">
+			<a href="{{ site.data.menu-links.sculpts.url }}">
+				<h6>
+					0{% increment i %} {{ site.data.menu.home[3] }}
+				</h6>
+			</a>
 		</div>
-	</section>
 
-	<br><br><br><br>
-	<footer id="includeFooter">
-	Shayne Valenciaa
-	<ul>
-		<li>
-			
-		</li>
-		<li>
-			
-		</li>
-		<li>
-			
-		</li>
-		<li>
-			
-		</li>
-	</ul>
-	</footer>
+
+
+	</section>
 
 </body>
 
