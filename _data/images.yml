@@ -9,7 +9,7 @@ graphic:
 
 motion:
   hero01:
-    - ./assets/roo.webp
+    - ./assets/motion01.webp
 
 web:
   hero01:
