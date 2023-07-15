@@ -7,6 +7,15 @@ graphic:
   hero01:
     - ./assets/gvk01.webp
 
+graphic-covers:
+  marvel:
+    - ./assets/marvel0.webp
+    - ./assets/marvel02.webp
+    - ./assets/marvel03.webp
+
+
+
+
 motion:
   hero01:
     - ./assets/motion01.webp
@@ -18,6 +27,7 @@ web:
 sculpts:
   hero01:
     - ./assets/gvk01.webp
+
 
 
 

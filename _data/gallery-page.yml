@@ -1,0 +1,14 @@
+---
+cover:
+  - ./assets/annual01.webp
+
+images:
+  - ./assets/annual02.webp
+  - ./assets/annual03.webp
+  - ./assets/annual04.webp
+  - ./assets/annual05.webp
+  - ./assets/annual06.webp
+  - ./assets/annual07.webp
+  - ./assets/annual08.webp
+
+---

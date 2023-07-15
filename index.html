@@ -4,9 +4,11 @@ title: Home
 page: home
 ---
 
+{% assign data = site.data %}
+
 <body>
 	<section class="hero" style="background-image: 
-	url('{{ site.data.images.home.hero01 }}'); background-size: cover !important; background-position: 50% 50%;">
+	url('{{ data.images.home.hero01 }}'); background-size: cover !important; background-position: 50% 50%;">
 	</section>
 
 
@@ -19,34 +21,34 @@ page: home
 	<section class="menu-gallery">
 
 		<div id="graphic" class="col-2" style="background-image: 
-			url( '{{ site.data.images.graphic.hero01 }}');">
-			<a href="{{ site.data.menu-links.graphic.url }}">
+			url( '{{ data.images.graphic.hero01 }}');">
+			<a href="{{ data.menu-links.graphic.url }}">
 				<h6>
-					01 {{ site.data.menu.home[0] }}
+					01 {{ data.menu.home[0] }}
+				</h6>
+			</a>	
+		</div>
+		<div id="graphic" class="col-2" style="background-image: 
+			url( '{{ data.images.motion.hero01 }}');">
+			<a href="{{ data.menu-links.motion.url }}">
+				<h6>
+					02 {{ data.menu.home[1] }}
 				</h6>
 			</a>
 		</div>
 		<div id="graphic" class="col-2" style="background-image: 
-			url( '{{ site.data.images.motion.hero01 }}');">
-			<a href="{{ site.data.menu-links.motion.url }}">
+			url( '{{ data.images.web.hero01 }}');">
+			<a href="{{ data.menu-links.web.url }}">
 				<h6>
-					02 {{ site.data.menu.home[1] }}
+					03 {{ data.menu.home[2] }}
 				</h6>
 			</a>
 		</div>
 		<div id="graphic" class="col-2" style="background-image: 
-			url( '{{ site.data.images.web.hero01 }}');">
-			<a href="{{ site.data.menu-links.web.url }}">
+			url( '{{ data.images.sculpts.hero01 }}');">
+			<a href="{{ data.menu-links.sculpts.url }}">
 				<h6>
-					03 {{ site.data.menu.home[2] }}
-				</h6>
-			</a>
-		</div>
-		<div id="graphic" class="col-2" style="background-image: 
-			url( '{{ site.data.images.sculpts.hero01 }}');">
-			<a href="{{ site.data.menu-links.sculpts.url }}">
-				<h6>
-					04 {{ site.data.menu.home[3] }}
+					04 {{ data.menu.home[3] }}
 				</h6>
 			</a>
 		</div>
