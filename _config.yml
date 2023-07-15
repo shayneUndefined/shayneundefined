@@ -1,6 +1,6 @@
 name: Shayne Valencia
 markdown: kramdown
-baseurl: /shayneundefined
+baseurl: /sv
 
 plugins:
   - jekyll-feed
