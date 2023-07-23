@@ -94,7 +94,7 @@
     font-size: 48px;
     background-color: #333;
     margin:0;
-    padding: 0px;
+    padding-bottom: 1em;
     border-radius: 6px;
     line-height: 1.4;
     width: 100%}
@@ -117,7 +117,9 @@
   }
   .countholder > div {
     margin:0;
-    padding: 0.5em;
+    width: 2em;
+    height: 2em;
+    padding: 0.3em;
     border-radius: 3px;
     background: #cc3300;
     display: inline-block;
@@ -132,6 +134,27 @@
     padding: 0px;
     font-size: 16px;
   }
+
+@media (max-width: 700px){
+  h5 {
+    font-size: 30px;
+    line-height: 38px;
+    padding: 0 1.5em;
+    margin-bottom: 1em;
+  }
+  .countholder {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+  .countholder > div {
+    width: auto;
+    height: auto;
+    padding: 0.4em;
+  }
+  .countholder .smalltext {
+    font-size: 14px;
+  }
+}
 </style>
 
 <body onload="getSeconds()">
@@ -163,7 +186,7 @@ function getSeconds( ) {
   var curtime = nowDate.getTime(); //current time 0-23
   let nowday = nowDate.getDay(); //get current day 0-6
   let nowHour = nowDate.getHours();
-  let HauntedCarriage = "The Haunted Carriage of Ashwold Cemetery begins in";
+  let HauntedCarriage = "The Haunted Carriage of Ashwold Cemetery appears in";
   let DemonGates = "Demon Gates appear in Realm of Damnation in"
   let AncientArena = "Bilefen's Ancient Arena starts in"
   let AncientNightmare = "Ancient Nightmare emerges atop Mount Zavain in"
