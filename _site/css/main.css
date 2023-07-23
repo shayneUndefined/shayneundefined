@@ -10,10 +10,10 @@ body {
 	background-color: whitesmoke;
 	font-size: 16px;
 }
-h1, h2, h3, h4, h5 {font-family: 'Archivo', sans-serif;}
+h1, h2, h3, h4, h5, .h6 {font-family: 'Archivo', sans-serif;}
 h1 {font-size: 110px; line-height: 110px; margin: 0; padding: 0;}
 h2 {font-size: 90px} h3 {font-size: 68px}
-h4 {font-size: 42px} h5 {font-size: 34px} h6 {font-size: 26px}
+h4 {font-size: 42px} h5 {font-size: 34px} h6, .h6 {font-size: 26px}
 
 p {font-size: ;
 }
@@ -120,7 +120,7 @@ section.menu-gallery {
 .golden-col {
 	display: flex; width: 66%; align-items: flex-end;
 	letter-spacing: 1em;
-	padding: 0em 2em 0em 5em; justify-content: center;
+	padding: 0em 0em 0em 5em; justify-content: center;
 }
 .silver-col {
 	display: flex; width: 33%; align-items: flex-end;

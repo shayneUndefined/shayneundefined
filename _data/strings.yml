@@ -9,7 +9,10 @@ home:
 
 graphic:
   description: >
-    Shayne Valencia dabbles in the arts both dark and graphic. Behold, terrors!
+    Shayne Valencia dabbles in the arts both dark and graphic.&nbsp;
+      <span class="h6" style="font-weight: 900">
+        Behold, terrors!
+      </span>
 
 
 motion:
@@ -25,7 +28,7 @@ sculpts:
     
 
 waluigi:
-  description: >
-    
+  description: 
+
 
 ---

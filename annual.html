@@ -1,25 +1,25 @@
 ---
 layout: gallery
-title: gallery page
-page: gallery-page
+title: Annual Report
+page: annual
 ---
 
 {% assign data = site.data %}
 	
 <body>
 	<section class="hero" style="background-image: 
-	url('{{ data.gallery-page.cover }}'); background-size: cover !important; background-position: 50% 50%;">
+	url('{{ data.annual.cover }}'); background-size: cover !important; background-position: 50% 50%;">
 			
 	</section>
 
 
-	<section class="main" style="gap: 3em; justify-content: center;">
-		<div>
-			{{ site.data.strings.gallery-page.description }}
+	<section class="main" style="gap: 3em;">
+		<div class="fold">
+			{{ site.data.annual.description }}
 		</div>
 	</section>
 	<section class="menu-gallery" style="background-color: #000; justify-content: center">
-		{% assign images = data.gallery-page.images %}
+		{% assign images = data.annual.images %}
 		{% for image in images %}
 			<img src="{{ image }}" style="height: 40vh">
 		{% endfor %}

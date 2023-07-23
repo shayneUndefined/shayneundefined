@@ -9,10 +9,13 @@ graphic:
 
 graphic-covers:
   marvel:
+    - ./assets/marvel1.webp
+    - ./assets/marvel02.webp
+    - ./assets/marvel03.webp
+  sweel:
     - ./assets/marvel0.webp
     - ./assets/marvel02.webp
     - ./assets/marvel03.webp
-
 
 
 

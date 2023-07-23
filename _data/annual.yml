@@ -1,0 +1,26 @@
+---
+cover:
+  - ./assets/annual01.webp
+
+images:
+  - ./assets/annual02.webp
+  - ./assets/annual03.webp
+  - ./assets/annual04.webp
+  - ./assets/annual05.webp
+  - ./assets/annual06.webp
+  - ./assets/annual07.webp
+  - ./assets/annual08.webp
+
+description: >
+    <h4 class="golden-col" style="letter-spacing: .1em">
+      No one in their right mind would ever voluntarily read an annual report, 
+      right? Right?
+    </h4>
+    <p class="silver-col" style="align-items: center !important">
+      WELL MAYBE IF THEY HAD MORE FUCKING GODZILLA THEY WOULD.
+    </p>
+    
+
+
+
+---
