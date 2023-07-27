@@ -5,7 +5,7 @@ home:
 
 graphic:
   hero01:
-    - ./assets/gvk01.webp
+    - ./assets/gvk0.webp
 
 graphic-covers:
   marvel:
@@ -21,15 +21,15 @@ graphic-covers:
 
 motion:
   hero01:
-    - ./assets/motion01.webp
+    - ./assets/dkgsocial0.webp
 
 web:
   hero01:
-    - ./assets/gvk01.webp
+    - ./assets/unifi4.webp
 
 sculpts:
   hero01:
-    - ./assets/gvk01.webp
+    - ./assets/s-wario0.webp
 
 
 
