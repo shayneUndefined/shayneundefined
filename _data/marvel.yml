@@ -1,0 +1,24 @@
+---
+cover:
+  - ./assets/marvel0.webp
+
+images:
+  - ./assets/marvel1.webp
+  - ./assets/marvel2.webp
+  - ./assets/marvel24.webp
+  - ./assets/marvel3.webp
+  - ./assets/marvel05.webp
+
+
+
+description: >
+    <h4 class="golden-col" style="letter-spacing: .1em">
+      These ads are not real.
+    </h4>
+    <p class="silver-col" style="align-items: center !important">
+      Neither was our love, Belissa.
+    </p>
+    
+
+
+

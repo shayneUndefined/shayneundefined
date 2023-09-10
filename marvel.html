@@ -1,32 +1,25 @@
 ---
 layout: gallery
-title: Waluigi
-page: waluigi
+title: Marvel
+page: marvel
 ---
 
 {% assign data = site.data %}
-
-<style>
-	h4 {
-		font-size: ;
-	}
-</style>
-
 	
 <body>
 	<section class="hero" style="background-image: 
-	url('{{ data.waluigi.cover }}'); background-size: cover !important; background-position: 50% 10%;">
+	url('{{ data.marvel.cover }}'); background-size: cover !important; background-position: 50% 50%;">
 			
 	</section>
 
 
 	<section class="main" style="gap: 3em;">
 		<div class="fold">
-			{{ site.data.waluigi.description }}
+			{{ site.data.marvel.description }}
 		</div>
 	</section>
 	<section class="menu-gallery" style="background-color: #000; justify-content: center">
-		{% assign images = data.waluigi.images %}
+		{% assign images = data.marvel.images %}
 		{% for image in images %}
 			<img src="{{ image }}" style="height: 40vh">
 		{% endfor %}

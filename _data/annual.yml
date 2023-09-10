@@ -1,15 +1,25 @@
 ---
 cover:
-  - ./assets/annual01.webp
+  - ./assets/annual0.webp
 
 images:
-  - ./assets/annual02.webp
-  - ./assets/annual03.webp
-  - ./assets/annual04.webp
-  - ./assets/annual05.webp
-  - ./assets/annual06.webp
-  - ./assets/annual07.webp
-  - ./assets/annual08.webp
+  - ./assets/annual1.webp
+  - ./assets/annual2.webp
+  - ./assets/annual4.webp
+  - ./assets/annual6.webp
+  - ./assets/annual7.webp
+  - ./assets/annual8.webp
+  - ./assets/annual9.webp
+  - ./assets/annual11.webp
+  - ./assets/annual12.webp
+  - ./assets/annual13.webp
+  - ./assets/annual14.webp
+  - ./assets/annual15.webp
+  - ./assets/annual16.webp
+  - ./assets/annual17.webp
+  - ./assets/annual18.webp
+
+
 
 description: >
     <h4 class="golden-col" style="letter-spacing: .1em">
@@ -23,4 +33,3 @@ description: >
 
 
 
----
