@@ -1,0 +1,20 @@
+---
+cover:
+  - ./assets/belka0.webp
+
+images:
+  - ./assets/belka1.webp
+  - ./assets/belka3.webp
+  - ./assets/belka4.webp
+
+
+description: >
+    <h4>Belka Bites
+    </h4>
+    <p class="silver-col" style="margin: 1em; align-items: center !important">
+      Dog food for dogs.
+    </p>
+    
+
+
+
