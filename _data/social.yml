@@ -1,0 +1,27 @@
+---
+cover:
+  - ./assets/dkgsocial5.webp
+
+images:
+  - ./assets/dkgsocial0.webp
+  - ./assets/dkgsocial1.webp
+  - ./assets/dkgsocial2.webp
+  - ./assets/dkgsocial4.webp
+  - ./assets/dkgsocial5.webp
+  - ./assets/dkgsocial7.webp
+  - ./assets/dkgsocial9.webp
+  - ./assets/dkgsocial10.webp
+  - ./assets/unifi9.webp 
+  - ./assets/unifi17.webp
+
+
+description: >
+    <h4>Social Graphics
+    </h4>
+    <p class="silver-col" style="margin: 1em; align-items: center !important">
+      Working free overtime for Mark Zuckerberg.
+    </p>
+    
+
+
+
