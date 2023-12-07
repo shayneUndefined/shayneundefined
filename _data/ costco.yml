@@ -1,0 +1,26 @@
+---
+cover:
+  - ./assets/costco2.webp
+
+images:
+  - ./assets/costco0.webp
+  - ./assets/costco1.webp
+  - ./assets/costco10.webp
+  - ./assets/costco2.webp
+  - ./assets/costco3.webp
+  - ./assets/costco6.webp
+  - ./assets/costco7.webp
+  - ./assets/costco8.webp
+  - ./assets/costco9.webp
+  
+
+description: >
+    <h4>CostCo
+    </h4>
+    <p class="silver-col" style="margin: 1em; align-items: center !important">
+      Wherein I worked so hard for the money. I worked hard for the money, honey.
+    </p>
+    
+
+
+

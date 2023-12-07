@@ -1,0 +1,36 @@
+---
+cover:
+  - ./assets/unifi14.webp
+
+images:
+
+  - ./assets/unifi10.webp
+  - ./assets/unifi12.webp
+  - ./assets/unifi14.webp
+  - ./assets/unifi16.webp
+  - ./assets/unifi17.webp
+  - ./assets/unifi19.webp
+  - ./assets/unifi2.webp
+  - ./assets/unifi20.webp
+  - ./assets/unifi21.webp
+  - ./assets/unifi22.webp
+  - ./assets/unifi23.webp
+  - ./assets/unifi24.webp
+  - ./assets/unifi26.webp
+  - ./assets/unifi27.webp
+  - ./assets/unifi28.webp
+  - ./assets/unifi31.webp
+  - ./assets/unifi32.webp
+  - ./assets/unifi4.webp
+  - ./assets/unifi9.webp
+  
+description: >
+    <h4>Unifi Mock Platform/Campaign
+    </h4>
+    <p class="silver-col" style="margin: 1em; align-items: center !important">
+      Loren ipsummadatbooty.
+    </p>
+    
+
+
+

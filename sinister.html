@@ -1,0 +1,33 @@
+---
+layout: gallery
+title: Sinister Paranormal Quarterly
+page: sinister
+---
+
+{% assign data = site.data %}
+	
+<body>
+	<section class="hero" style="background-image: 
+	url('{{ data.sinister.cover }}'); background-size: cover !important; background-position: 50% 50%;">
+			
+	</section>
+
+
+	<section class="main" style="gap: 3em;">
+		<div class="fold">
+			{{ site.data.sinister.description }}
+		</div>
+	</section>
+	<section class="menu-gallery" style="background-color: #000; justify-content: center">
+		{% assign images = data.sinister.images %}
+		{% for image in images %}
+			<img src="{{ image }}" style="height: 40vh">
+		{% endfor %}
+
+
+
+	</section>
+
+</body>
+
+</html>

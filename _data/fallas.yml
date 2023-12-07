@@ -1,0 +1,25 @@
+---
+cover:
+  - ./assets/fallas0.webp
+
+images:
+
+  - ./assets/fallas1.webp
+  - ./assets/fallas0.webp
+  - ./assets/fallas2.webp
+  - ./assets/fallas3.webp
+  - ./assets/fallas4.webp
+  - ./assets/fallas5.webp
+  - ./assets/fallas9.webp
+  - ./assets/fallas99.webp
+  
+description: >
+    <h4>Las Fallas Mock Event Campaign
+    </h4>
+    <p class="silver-col" style="margin: 1em; align-items: center !important">
+      Loren ipsummadatbooty.
+    </p>
+    
+
+
+

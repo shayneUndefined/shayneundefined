@@ -1,0 +1,29 @@
+---
+cover:
+  - ./assets/everest10.webp
+
+images:
+
+  - ./assets/everest11.webp
+  - ./assets/everest10.webp
+  - ./assets/everest12.webp
+  - ./assets/everest13.webp
+  - ./assets/everest15.webp
+  - ./assets/everest16.webp
+  - ./assets/everest17.webp
+  - ./assets/everest18.webp
+  - ./assets/everest4.webp
+  - ./assets/everest5.webp
+  - ./assets/everest7.webp
+  - ./assets/everest8.webp
+  
+description: >
+    <h4>Mt Everest Cuisines Mock Rebrand
+    </h4>
+    <p class="silver-col" style="margin: 1em; align-items: center !important">
+      Love ya food.
+    </p>
+    
+
+
+

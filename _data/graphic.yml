@@ -7,6 +7,8 @@ belka: ./assets/belka1.webp
 
 costco: ./assets/costco0.webp
 
+sinister: ./assets/sinister555.webp
+
 social: ./assets/dkgsocial5.webp
 
 billboard: ./assets/gvk1.webp
@@ -22,8 +24,6 @@ unifi: ./assets/unifi0.webp
 dookey: ./assets/dookey.webp
 
 rebrand: ./assets/everest10.webp
-
-waluigi: ./assets/waluigi01.webp
 
 
 ---
