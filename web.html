@@ -1,0 +1,34 @@
+---
+layout: default
+title: Graphic
+page: graphic
+---
+
+{% assign data = site.data %}
+	
+<section class="hero" style="background-image: 
+	url('{{ site.data.images.graphic.hero01 }}'); background-size: cover !important; background-position: 50% 50%;">
+			
+</section>
+
+
+<section class="main" style="gap: 3em;">
+		<div class="fold">
+			{{ site.data.strings.graphic.description }}
+		</div>
+</section>
+<section class="menu-gallery">
+	{% assign graphic = data.graphic %}
+	{% for project in graphic %}
+	<div class="col-2" style="background-image: url('{{ project[1] }}');">
+		<a href="./{{ project[0] }}.html">
+			<h6>
+				{{ project[0] }}
+			</h6>
+		</a>
+	</div>
+	{% endfor %}
+
+
+
+</section>

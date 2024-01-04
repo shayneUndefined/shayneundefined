@@ -31,6 +31,9 @@
 <loc>http://localhost:4000/sv/marvel.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/sv/motion.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/sv/neue.html</loc>
 </url>
 <url>
@@ -50,5 +53,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/sv/waluigi.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/sv/web.html</loc>
 </url>
 </urlset>
